@@ -1,9 +1,9 @@
+{%extends 'years_released.html' %}
 
+{% block content %}
 
-{% block content1 %}
-
-<form action="{{ url_for('movies') }}" method="GET">
-    {{ form.name.label() }}{{ form.name() }}<br>
+<form action="{{ url_for('movies') }}" method="POST">
+    {{ form.movie_title.label() }}{{ form.movie_title() }}<br>
     {{ form.submit() }}
     {{ form.hidden_tag() }}
 </form>
