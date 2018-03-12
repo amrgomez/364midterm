@@ -45,9 +45,9 @@ The application will allow the users to submit a movie to see if it exists and t
  ** Have at least 3 view functions that are not included with the code we have provided. (But you may have more! Make sure you include ALL view functions in the app in the documentation and ALL pages in the app in the navigation links of base.html.) ** 
 
 ##Routes 
-http://local:5000-index html
-http://local:5000/movie_title- movie_title.html
-http://local:5000/release_years-years_released.html
-http://local:5000/names-base.html
+http://local:5000 -index html
+http://local:5000/movie_title - movie_title.html
+http://local:5000/release_years -years_released.html
+http://local:5000/names -base.html
 
 
